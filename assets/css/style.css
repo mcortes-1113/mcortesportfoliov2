@@ -51,6 +51,119 @@ form {
     color: #ffffff;
     padding: 6px 18px 6px;  
 }
+
+#p1 {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#img1 {
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+#title1 {
+    position: relative;
+    left: -80px;
+    width: 80px;
+    top: 30px;
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#p2 {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#img2 {
+    float: left;
+    position: relative;
+    top: -10px;
+    left: -40px;
+}
+
+#title2 {
+    position: relative;
+    left: -120px;
+    width: 80px;
+    top: 30px;
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#p3 {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    clear: both;
+}
+#img3 {
+    float: left;
+    position: relative;
+    top: -10px;
+    left: -40px;
+}
+
+#title3 {
+    position: relative;
+    left: -120px;
+    width: 80px;
+    top: 30px;
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#p4 {
+    position: relative;
+    left: 140px;
+    top: -60px;
+    clear: both;
+}
+#img4 {
+    float: left;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+#title4 {
+    position: relative;
+    left: -90px;
+    width: 80px;
+    top: 30px;
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#p5 {
+    position: relative;
+    left: 20px;
+    top: -50px;
+    clear: both;
+}
+#img5 {
+    float: left;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+#title5 {
+    position: relative;
+    left: -90px;
+    width: 80px;
+    top: 30px;
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+}
+
 h1 {
     margin: 0px;
     border: 0px;

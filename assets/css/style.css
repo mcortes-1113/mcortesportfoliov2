@@ -4,7 +4,6 @@
 
 .header {
     background-color: #ffffff;
-    border-bottom-color: #cccccc;
 }
 
 h1,
@@ -14,19 +13,23 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#container1 {
+a {
+    color: #777777;
+    border-color: #cccccc;
+    padding: 0px 20px 0px;
+    margin: 0px;
+}
+
+#aboutlink,
+#portfoliolink {
+    border-right: 2px solid #cccccc;
 }
 
 h2 {
     background-color: #ffffff;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-a {
-    color: #777777;
-    border-color: #cccccc;
+    border-bottom: 8px solid #dddddd;
 }
 
 p,
@@ -34,7 +37,58 @@ form {
     color: #777777
 }
 
+p {
+    line-height: normal;
+}
+h1 {
+    margin: 0px;
+    border: 0px;
+    display: inline;
+    padding: 0px 0px 0px 8px;
+ }
+
+ .links {
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+    display: inline;
+    float: right;
+ }
+
+ .header {
+     width: 960px;
+     padding: 0px 150px 0px;
+ }
+
+ #wrapper1 {
+     background-image: url(../images/backgroundpattern.png);
+     width: 960px;
+     height: 500px;
+     clear: both;
+     padding: 20px 150px 50px;
+ }
+
+ #wrapper2 {
+    height: 80%;
+    background-color: #ffffff;
+ }
+
+ h2 {
+     padding: 20px 0px 20px 8px;
+ }
+
+ #aboutmeimg {
+     float: left;
+     padding: 0px 8px 8px 8px;
+     margin: 0px;
+ }
+ 
 .footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    width: 1260px;
+    height: 24px;
+    clear: both;
 }

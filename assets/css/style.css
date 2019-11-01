@@ -40,6 +40,17 @@ form {
 p {
     line-height: normal;
 }
+
+form {
+    line-height: 25px;
+    padding-left: 8px;
+}
+
+#button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 6px 18px 6px;  
+}
 h1 {
     margin: 0px;
     border: 0px;

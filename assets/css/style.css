@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+}
+
+h1,
+h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container1 {
+}
+
+h2 {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+a {
+    color: #777777;
+    border-color: #cccccc;
+}
+
+p,
+form {
+    color: #777777
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}

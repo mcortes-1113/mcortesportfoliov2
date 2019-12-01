@@ -4,83 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MCortes-Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
     <div class="header">
         <h1>Mario Cortes</h1>
-
-        <div class="links">
-            <a id="aboutlink" href="index.html">About</a>
-            <a id="portfoliolink" href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-    </div>
+        <h2 class="header-h2" >Professional Profile</h2>
     </div>  
-
-    <div id="wrapper1">
-
-        <div id="wrapper2">
+    
+        <div class="container-fluid" id="wrapper1">      
         
-            <h2>Portfolio</h2>
-
-            <div id="p1">
-                    <img id="img1"
-                        src="assets/images/project_4.jpg"
-                        alt="project1"
-                        width="80px"
-                        height="80px">
-        
-                    <h3 id="title1">Project1</h3>
+            <div class="row" id="links-div">
+                <div class="col-md-12">
+                    <a class="linkEl" href="contact.html">Contact</a>                        
+                    <a class="linkEl" id="portfoliolink" href="portfolio.html">Portfolio</a>
+                    <a class="linkEl"  id="resumelink" href="index.html">Resume</a>
+                    <a class="linkEl"  id="aboutlink" href="index.html">About</a>
                 </div>
-
-            <div id="p2">
-                    <img id="img2"
-                        src="assets/images/project_2.jpg"
-                        alt="project2"
-                        width="80px"
-                        height="80px">
-        
-                    <h3 id="title2">Project2</h3>
             </div>
 
-            <div id="p3">
-                    <img id="img3"
-                        src="assets/images/project_3.jpg"
-                        alt="project3"
-                        width="80px"
-                        height="80px">
-        
-                    <h3 id="title3">Project3</h3>
+            <div class="row" id="wrapper2">
+                    <div class="col-md-12">
+                        <h2 id="wrapper-h2" >Portfolio</h2>
+                    </div>
             </div>
 
-            <div id="p4">
-                    <img id="img4"
-                        src="assets/images/project_4.jpg"
-                        alt="project4"
-                        width="80px"
-                        height="80px">
-        
-                    <h3 id="title4">Project4</h3>
+            <div class="row">
+                    <div class="col-md-12">
+                        <img
+                        src="assets/images/weatherDashboard-Sm.PNG"
+                        alt="weather dashboard"
+                        width="240px"
+                        height="180px">
+                        
+                        <h3>Weather Dashboard</h3>
+                        <p id="weatherdash">
+                            A web application that leverages multiple API's to provide the user with the current weather and 5-day
+                            forecast for a given city within the US.
+                               <br><br>
+                               <a    href="https://mcortes-1113.github.io/weatherdash/">Link to Live App</a>
+                               <br>
+                               <a    href="https://github.com/mcortes-1113/weatherdash">Link to App Repository</a>    
+                        </p>
+                    </div>
+    
             </div>
 
-            <div id="p5">
-                    <img id="img5"
-                        src="assets/images/project_5.jpg"
-                        alt="project5"
-                        width="80px"
-                        height="80px">
+                <div class="row">
+                        <div class="col-md-12">
+                            <img 
+                            src="assets/images/passwordGen-Lg.PNG"
+                            alt="password generator"
+                            width="240px"
+                            height="180px">
+                            
+                            <h3>Password Generator</h3>
+                            <p id="passwordgen">
+                                A web application that will generate a random password that meets the user requirements
+                                <br><br>
+                                <a    href="https://mcortes-1113.github.io/mcortespasswordgen/">Link to Live App</a>
+                                <br>
+                                <a    href="https://github.com/mcortes-1113/mcortespasswordgen">Link to App Repository</a>    
+                            </p>
+                        </div>
         
-                    <h3 id="title5">Project5</h3>
-                </div>
+                </div>                                               
 
         </div>
 
     </div>
 
-    <div class="footer">Copyright &copy;</div>
+    <!-- <div class="footer">Copyright &copy;</div> -->
     
 </body>
 </html>

@@ -6,41 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MCortes-About Me</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     
     <div class="header">
         <h1>Mario Cortes</h1>
-        <div class="links">
-            <a id="aboutlink" href="index.html">About</a>
-            <a id="portfoliolink" href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
+        <h2 class="header-h2" >Professional Profile</h2>
     </div>  
 
-    <div id="wrapper1">      
+    <div class="container-fluid" id="wrapper1">      
    
-        <div id="wrapper2">
+            <div class="row" id="links-div">
+                    <div class="col-md-12">
+                            <a class="linkEl" href="contact.html">Contact</a>                        
+                            <a class="linkEl" id="portfoliolink" href="portfolio.html">Portfolio</a>
+                            <a class="linkEl"  id="resumelink" href="index.html">Resume</a>
+                            <a class="linkEl"  id="aboutlink" href="index.html">About</a>
+                        </div>
+                </div>
 
-            <h2>About Me</h2>
-
-            <img id="aboutmeimg"
-                src="assets/images/aboutme.png"
-                alt="about me"
-                width="200px"
-                height="200px">
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Sed vulputate mi sit amet mauris commodo. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Tortor aliquam nulla facilisi cras fermentum odio eu. Nullam non nisi est sit amet facilisis. Neque aliquam vestibulum morbi blandit cursus. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Integer vitae justo eget magna fermentum iaculis eu non. Enim neque volutpat ac tincidunt. Nec ultrices dui sapien eget mi. Tortor consequat id porta nibh venenatis cras.
-
-                Aliquam id diam maecenas ultricies mi eget mauris. Ut lectus arcu bibendum at. Vitae elementum curabitur vitae nunc sed. Nec feugiat nisl pretium fusce id velit. Vitae et leo duis ut. Arcu cursus euismod quis viverra nibh. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Aliquam ut porttitor leo a. Auctor urna nunc id cursus metus aliquam eleifend. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Egestas purus viverra accumsan in nisl nisi. Adipiscing commodo elit at imperdiet dui accumsan sit. Id leo in vitae turpis massa sed elementum tempus egestas. Hac habitasse platea dictumst quisque sagittis. Mi bibendum neque egestas congue quisque egestas diam in. Iaculis nunc sed augue lacus viverra vitae congue eu consequat.
-            </p>
-
+        <div class="row" id="wrapper2">
+            <div class="col-md-12">
+                <h2 id="wrapper-h2" >About Me</h2>
+            </div>
         </div>
-       
+
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="aboutmeimg"
+                    src="assets/images/aboutme.png"
+                    alt="about me"
+                    width="120px"
+                    height="120px">
+
+                    <p id="aboutMe">
+                        I'm a self-motivated individual with over 20 years in the Supply Chain and Logistics industry.
+                         Having fulfilled multiple roles ranging from forklift driver to data analyst have allowed me
+                         to experience first hand the multiple challenges that daily operations can present. Critical-thinker
+                          and a problem-solver by nature, I use my experience along with a stack of technical 
+                          data-analysis skills and tools to understand challenges, and then present and implement
+                           data-driven, cost-efficient solutions. Currently adding full-stack web-development skills to 
+                           further expand my portfolio and to be able to provide more advanced solutions; thus, bridging the 
+                           ever present gap between IT and Operational groups.
+                           <br><br>
+                           <p id="quote">“In God we trust, all others bring data.” — W Edwards Deming </p>
+                    </p>
+                </div>
+
+            </div>
     </div>
 
-    <div class="footer">Copyright &copy;</div>
+    <!-- <div class="footer">Copyright &copy;</div> -->
 
 </body>
 </html>

@@ -4,43 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MCortes-Contact</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
 </head>
+
 <body>
     
     <div class="header">
         <h1>Mario Cortes</h1>
-        <div class="links">
-            <a id="aboutlink" href="index.html">About</a>
-            <a id="portfoliolink" href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </div>
+        <h2 class="header-h2" >Professional Profile</h2>
+    </div>  
 
-    <div id="wrapper1">
+    <div class="container-fluid" id="wrapper1">   
+        
+        <div class="row" id="links-div">
+            <div class="col-md-12">
+                <a class="linkEl" href="contact.html">Contact</a>                        
+                <a class="linkEl" id="portfoliolink" href="portfolio.html">Portfolio</a>
+                <a class="linkEl"  target="_blank" id="resumelink" href="assets/docs/MCortes - Resume_priv.htm">Resume</a>
+                <a class="linkEl"  id="aboutlink" href="index.html">About</a>
+            </div>
+        </div>
     
-        <div id="wrapper2">
+            <div class="row" id="wrapper2">
+                <div class="col-md-12">
+                    <h2 id="wrapper-h2">Contact</h2>
+                </div>
+            </div>
 
-            <h2>Contact</h2>
-
-            <form>
-                Name:<br>
-                    <input type="text" name="name" size="50"> <br>
-                Email:<br>
-                    <input type="email" name="email" size="50"> <br>
-                Message:<br>
-                    <textarea name="msg" rows="7" cols="51"></textarea> <br>
-                <br>
-                    <input id="button" type="submit" name="Submit">
-            </form>
-
-        </div>
-
-
+                <div class="row">
+                    <div class="col-md-12 form-div">
+                        <form class="form-text">
+                            Name:<br>
+                                <input type="text" name="name" size="50"> <br>
+                            Email:<br>
+                                <input type="email" name="email" size="50"> <br>
+                            Message:<br>
+                                <textarea name="msg" rows="7" cols="51"></textarea> <br>
+                            <br>
+                                <input id="button" type="submit" name="Submit">
+                        </form>
+                    </div>
+                </div>
     </div>
 
-    <div class="footer">Copyright &copy;</div>
 </body>
 </html>

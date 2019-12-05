@@ -31,11 +31,23 @@
 }
 
 /* h1, */
-h3 {
+.project-header {
     /* background-color: #4aaaa5; */
-    color: #8E8D8A;
+    color: #5a5a5a;
     font-size: 14pt;
+    margin: 8px 0px;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.project-link {
+    color: #41629f;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.project-div {
+    border-bottom: 5px solid #5a5a5a;
+    margin : 5px 0px;
 }
 
 #wrapper-h2 {

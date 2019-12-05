@@ -45,6 +45,10 @@
     font-size: 11pt;
 }
 
+.project-image {
+    margin : 8px 0px;
+}
+
 .project-div {
     border-bottom: 5px solid #5a5a5a;
     margin : 5px 0px;
@@ -75,10 +79,15 @@
 
 }
 
-p,
+#weatherdash,
+#passwordgen,
+#tripassist {
+    color: #5a5a5a;
+}
+/* p,
 form {
     color: #777777
-}
+} */
 
 form {
     line-height: 25px;

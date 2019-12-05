@@ -1,44 +1,71 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Alata', sans-serif;
+    background-color: whitesmoke;
 }
 
+/*#c00000 #41629f #5a5a5a*/
 .header {
-    background-color: #ffffff;
+    width: 100%;
+    margin: 0px;
+    background-color: #5a5a5a;
 }
 
-h1,
+.header h1 {
+    color: white;
+    font-size: 20pt;
+    background-color: #5a5a5a;
+}
+
+.header-h2 {
+    color: white;
+    font-size: 16pt;
+    padding: 2px 8px;
+    margin: 0px;
+    background-color: #5a5a5a;
+}
+
+.linkEl {
+    color: /*#E98074*/ #41629f;
+    margin: 10px;
+    float: right;
+}
+
+/* h1, */
 h3 {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: #4aaaa5; */
+    color: #8E8D8A;
+    font-size: 14pt;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
-a {
-    color: #777777;
-    border-color: #cccccc;
-    padding: 0px 20px 0px;
+#wrapper-h2 {
+    /* background-color: #ffffff; */
+    color: #E85A4F;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    border-bottom: 4px solid #E85A4F;
+    padding: 20px 0px 4px 8px;
+    font-size: 16pt;
+}
+
+#aboutmeimg {
+    float: left;
+    padding: 0px 8px 8px 8px;
     margin: 0px;
 }
 
-#aboutlink,
-#portfoliolink {
-    border-right: 2px solid #cccccc;
+#aboutMe {
+    line-height: 25px;
 }
 
-h2 {
-    background-color: #ffffff;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 8px solid #dddddd;
+#quote {
+    text-align: right;
+    color: #41629f;
+
 }
 
 p,
 form {
     color: #777777
-}
-
-p {
-    line-height: normal;
 }
 
 form {
@@ -170,44 +197,8 @@ h1 {
     display: inline;
     padding: 0px 0px 0px 8px;
  }
-
- .links {
-    margin: 0px;
-    border: 0px;
-    padding: 5px;
-    display: inline;
-    float: right;
- }
-
- .header {
-     width: 960px;
-     padding: 0px 150px 0px;
- }
-
- #wrapper1 {
-     background-image: url(../images/backgroundpattern.png);
-     width: 960px;
-     height: 500px;
-     clear: both;
-     padding: 20px 150px 50px;
- }
-
- #wrapper2 {
-    height: 80%;
-    background-color: #ffffff;
- }
-
- h2 {
-     padding: 20px 0px 20px 8px;
- }
-
- #aboutmeimg {
-     float: left;
-     padding: 0px 8px 8px 8px;
-     margin: 0px;
- }
  
-.footer {
+/* .footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
@@ -215,4 +206,4 @@ h1 {
     width: 1260px;
     height: 24px;
     clear: both;
-}
+} */
